@@ -53,3 +53,21 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+
+# Temporary files
+.DS_Store
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# Program output
+*.dans
+
+# clangd cache
+.cache/
